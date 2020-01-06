@@ -186,8 +186,8 @@ static struct key bindings[] = {
 #endif
 	/* Change dir on quit */
 	{ 'Q',            SEL_CDQUIT,    "",     "" },
-	{ CONTROL('G'),   SEL_CDQUIT,    "",     "" },
+	{ CONTROL('X'),   SEL_CDQUIT,    "",     "" },
 	/* Quit */
 	{ 'q',            SEL_QUIT,      "",     "" },
-	{ CONTROL('X'),   SEL_QUIT,      "",     "" },
+	{ CONTROL('G'),   SEL_QUIT,      "",     "" },
 };
